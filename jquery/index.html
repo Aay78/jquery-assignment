@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  
+  <script src="index.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $("#button1").click(function(){
+        $("#why1").fadeIn(1000);
+        $("#why2").fadeIn(2000);
+      });
+    });
+    $(document).ready(function(){
+      $("#button2").click(function(){
+        $("#how1").fadeIn(1000).css('float, right');
+        $("#how2").fadeIn(2000);
+      });
+    });
+    </script>
+
+
+  
+ 
+ 
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#resNav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="navbar-brand"><img src="images/logo1.png" alt="logo1" width="100" height="100"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="resNav">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Staff</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        <div class="header">
+            <h1>Prepare yourself for a career in computer science, with</h1>
+            <img src="images/logo2.png" height="130" width="200">
+        </div>
+        
+<button id="button1" style="color: blue; border: black; background-color: gray; border-color: black; " >Why WestMec?</button><br><br>
+
+
+
+<div id="why1" style="width:150px;height:190px;display:none;background-color:red;"><p>Students are provided with laptops and facilites to make sure they are learning as much as they can when they attend class</p></div><br>
+<div id="why2" style="width:150px;height:150;display:none;background-color:green;"><p>WestMec isnt just about coming to class, it's about using what you learn in your career. We participate in FBLA events at regional,state, and national levels. There is also an internship program which prepares students for interviews and provides intership opportunites</p></div><br>
+
+        
+       
+    
+</body>
+
+</html>
